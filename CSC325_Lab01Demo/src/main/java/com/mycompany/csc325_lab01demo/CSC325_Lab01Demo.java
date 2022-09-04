@@ -11,7 +11,13 @@ package com.mycompany.csc325_lab01demo;
  */
 public class CSC325_Lab01Demo {
 
+    private static void sayHello()
+    {
+        System.out.println("Hello World! Currently using a sayHello method.");
+    }
+    
     public static void main(String[] args) {
-        System.out.println("Hello World! Welcome to Java Programming");
+        //System.out.println("Hello World! Welcome to Java Programming");
+        sayHello();
     }
 }
