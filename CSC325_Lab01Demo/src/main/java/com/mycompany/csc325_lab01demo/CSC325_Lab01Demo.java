@@ -16,8 +16,17 @@ public class CSC325_Lab01Demo {
         System.out.println("Hello World! Currently using a sayHello method.");
     }
     
+    private static void sayHello(String str, int n)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            System.out.println(str);
+        }
+    }
+    
     public static void main(String[] args) {
-        //System.out.println("Hello World! Welcome to Java Programming");
+        System.out.println("Hello World! Welcome to Java Programming");
         sayHello();
+        sayHello("Hello World!, currently using an overloaded method:)", 3);
     }
 }
